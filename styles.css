@@ -1,0 +1,48 @@
+#pingPongGameContainer {
+    text-align: center;
+}
+
+#gameSpace {
+    border: 2px solid white; 
+    margin-left: 15%; /* Adjust this value based on your preference */
+}
+
+#gameScoreText {
+    font-family: "consolas", monospace;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#restartButton {
+    font-family: "consolas", monospace;
+    background-color: blue;
+    color: beige;
+    border: 1px solid blue;
+    border-radius: 5px;
+    width: 150px;
+    height: 25px;
+    cursor: pointer;
+}
+
+body {
+    background-color: black;
+    overflow: hidden;
+}
+
+#title, #subTitle {
+    color: aliceblue;
+    font-family: 'DM Serif Display', serif;
+}
+
+#gameFeatures {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%; /* Adjust this value based on your preference */
+    margin-top: 10%; /* Adjust this value based on your preference */
+}
+
+h1 {
+    font-size: 27px;
+    margin: 0;
+}
